@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Завдання 4. Анкета</title>
+</head>
+<body>
+  <h1 align="center">Анкета студента</h1>
+
+  <div align="center">
+    <form method="get">
+      <fieldset>
+        <legend>Особисті дані</legend>
+        <p>
+          <label for="first-name">Ім'я:</label>
+          <input type="text" id="first-name" name="first_name" value="" placeholder="Введіть ім'я" required tabindex="1">
+        </p>
+        <p>
+          <label for="last-name">Прізвище:</label>
+          <input type="text" id="last-name" name="last_name" value="" placeholder="Введіть прізвище" required tabindex="2">
+        </p>
+        <p>
+          <label for="birth-date">Дата народження:</label>
+          <input type="date" id="birth-date" name="birth_date" value="" tabindex="3">
+        </p>
+        <p>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" value="" placeholder="name@example.com" autocomplete="off" pattern="[A-Za-z0-9._%+\-]+@[A-Za-z0-9.\-]+\.[A-Za-z]{2,}" title="Формат: name@example.com" required tabindex="4">
+        </p>
+        <p>
+          <label for="phone">Мобільний телефон:</label>
+          <input type="tel" id="phone" name="phone" value="" placeholder="+380501234567" pattern="\+380[0-9]{9}" title="Формат: +380 і ще 9 цифр" tabindex="5">
+        </p>
+        <p>
+          <label for="password">Пароль:</label>
+          <input type="password" id="password" name="password" value="" placeholder="Рівно 6 символів" pattern="(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z]).{6}" title="Рівно 6 символів: хоча б 1 велика літера, 1 мала літера і 1 цифра" required tabindex="6">
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>Про себе</legend>
+        <p>
+          <label for="about">Розкажіть про себе:</label><br>
+          <textarea id="about" name="about" rows="4" cols="30" placeholder="Кілька речень про себе" tabindex="7"></textarea>
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>Навчання</legend>
+        <p>Форма навчання:</p>
+        <input type="radio" id="form-full" name="study_form" value="full" tabindex="8">
+        <label for="form-full">Денна</label>
+        <input type="radio" id="form-part" name="study_form" value="part" tabindex="9">
+        <label for="form-part">Заочна</label>
+        <input type="radio" id="form-remote" name="study_form" value="remote" tabindex="10">
+        <label for="form-remote">Дистанційна</label>
+        <p>Рівень знань HTML:</p>
+        <input type="radio" id="level-beginner" name="level" value="beginner" tabindex="11">
+        <label for="level-beginner">Початковий</label>
+        <input type="radio" id="level-middle" name="level" value="middle" checked tabindex="12">
+        <label for="level-middle">Середній</label>
+        <input type="radio" id="level-advanced" name="level" value="advanced" tabindex="13">
+        <label for="level-advanced">Просунутий</label>
+      </fieldset>
+      <fieldset>
+        <legend>Інтереси</legend>
+        <p>Мови програмування, які знаю:</p>
+        <input type="checkbox" id="lang-cpp" name="languages" value="cpp" tabindex="14">
+        <label for="lang-cpp">C++</label>
+        <input type="checkbox" id="lang-python" name="languages" value="python" tabindex="15">
+        <label for="lang-python">Python</label>
+        <input type="checkbox" id="lang-js" name="languages" value="javascript" tabindex="16">
+        <label for="lang-js">JavaScript</label>
+        <input type="checkbox" id="lang-java" name="languages" value="java" tabindex="17">
+        <label for="lang-java">Java</label>
+        <p>
+          <label for="hobbies">Хобі (Ctrl + клік для кількох):</label><br>
+          <select id="hobbies" name="hobbies" multiple size="6" tabindex="18">
+            <option value="music">Музика</option>
+            <option value="sport">Спорт</option>
+            <option value="reading">Читання</option>
+            <option value="travel">Подорожі</option>
+            <option value="movies">Кіно</option>
+            <option value="games">Ігри</option>
+          </select>
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>Додаткова інформація</legend>
+        <p>
+          <label for="city">Місто:</label>
+          <select id="city" name="city" tabindex="19">
+            <option value="kyiv">Київ</option>
+            <option value="lviv">Львів</option>
+            <option value="kharkiv">Харків</option>
+            <option value="odesa">Одеса</option>
+            <option value="chernivtsi">Чернівці</option>
+          </select>
+        </p>
+        <p>
+          <label for="food">Улюблена їжа:</label>
+          <select id="food" name="food" tabindex="20">
+            <optgroup label="Фрукти">
+              <option value="apple">Яблуко</option>
+              <option value="banana">Банан</option>
+              <option value="orange">Апельсин</option>
+            </optgroup>
+            <optgroup label="Овочі">
+              <option value="carrot">Морква</option>
+              <option value="cucumber">Огірок</option>
+              <option value="tomato">Помідор</option>
+            </optgroup>
+            <optgroup label="Напої">
+              <option value="tea">Чай</option>
+              <option value="coffee">Кава</option>
+              <option value="juice">Сік</option>
+            </optgroup>
+            <optgroup label="Десерти">
+              <option value="cake">Торт</option>
+              <option value="icecream">Морозиво</option>
+              <option value="cookie">Печиво</option>
+            </optgroup>
+          </select>
+        </p>
+        <p>
+          <label for="browser">Улюблений браузер:</label>
+          <input type="text" id="browser" name="browser" value="" list="browsers" placeholder="Почни вводити назву" tabindex="21">
+          <datalist id="browsers">
+            <option value="Chrome">
+            <option value="Firefox">
+            <option value="Edge">
+            <option value="Safari">
+            <option value="Opera">
+          </datalist>
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>Файли</legend>
+        <p>
+          <label for="audio">Улюблена музика (аудіофайли):</label><br>
+          <input type="file" id="audio" name="audio_files" accept="audio/*" multiple tabindex="22">
+        </p>
+      </fieldset>
+      <p>
+        <button type="submit" name="send" value="send" tabindex="23">Надіслати</button>
+        <button type="reset" name="clear" value="clear" tabindex="24">Очистити</button>
+      </p>
+    </form>
+    <p><a href="../index.html">Повернутись на головну</a></p>
+  </div>
+</body>
+</html>
