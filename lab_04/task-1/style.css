@@ -13,11 +13,12 @@ div {
     text-align: justify;
 }
 
-.red {
+.text-red {
     color: red;
 }
 
-.nowrap {
+.text-nowrap {
+    color: red;
     white-space: nowrap;
 }
 
@@ -26,17 +27,18 @@ div {
     font-weight: bold;
 }
 
-.shadow {
+.text-shadow {
     text-shadow: 5px -5px 3px red;
 }
 
-.decor {
+.text-through {
     text-decoration: line-through;
     text-transform: uppercase;
     text-indent: 50px;
 }
 
-.spacing {
+.text-spacing {
+    text-shadow: 5px -5px 3px red;
     letter-spacing: 30px;
     word-spacing: 50px;
 }

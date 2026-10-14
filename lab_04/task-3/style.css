@@ -6,11 +6,11 @@ a {
     color: green;
 }
 
-.squares {
+.squared-list{
     list-style-type: square;
 }
 
-.icons {
+.checked-list {
     list-style-image: url(../task-3/icon.png);
 }
 
@@ -18,11 +18,11 @@ ul li ul {
     list-style-type: none;
 }
 
-.squares a {
+.squared-list a {
     text-decoration: none;
 }
 
-ol {
+.main-unstyled {
     list-style-position: inside;
 }
 

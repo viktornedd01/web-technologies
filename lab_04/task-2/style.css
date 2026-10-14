@@ -4,49 +4,53 @@ body {
     line-height: 1.6;
 }
 
-h1 {
-    text-align: center;
-}
+.recipe {
+    
+    h1 {
+        text-align: center;
+    }
 
-h2 {
-    text-align: center;
-    font-style: italic;
-}
+    h2 {
+        text-align: center;
+        font-style: italic;
+    }
 
-p {
-    text-align: center;
-}
+    p {
+        text-align: center;
+    }
 
-hr {
-    background-color: #008000;
-    width: 70%;
-    height: 5px;
-    margin: 20px auto;
-    border: none;
-}
+    hr {
+        background-color: #008000;
+        width: 70%;
+        height: 5px;
+        margin: 20px auto;
+        border: none;
+    }
 
-#title {
-    color: red;
-    text-align: center;
-}
+    #title {
+        color: red;
+        text-align: center;
+    }
 
-.product {
-    font-weight: bold;
-}
+    .product {
+        font-weight: bold;
+    }
 
-.underline {
-    text-decoration: underline;
-}
+    .underline {
+        text-decoration: underline;
+    }
 
-.strike {
-    text-decoration: line-through;
-}
+    .strike {
+        text-decoration: line-through;
+    }
 
-.note {
-    background-color: yellow;
-}
+    .note {
+        background-color: yellow;
+    }
 
-.slogan {
-    font-family: Propisi, cursive;
-    font-style: italic;
+    .slogan {
+        font-family: Propisi, cursive;
+        font-style: italic;
+    }
+
 }
