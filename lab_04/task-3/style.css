@@ -1,0 +1,31 @@
+a {
+    color: purple;
+}
+
+.main {
+    color: green;
+}
+
+.squares {
+    list-style-type: square;
+}
+
+.icons {
+    list-style-image: url(../task-3/icon.png);
+}
+
+ul li ul {
+    list-style-type: none;
+}
+
+.squares a {
+    text-decoration: none;
+}
+
+ol {
+    list-style-position: inside;
+}
+
+
+
+

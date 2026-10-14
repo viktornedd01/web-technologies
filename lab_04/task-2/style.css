@@ -1,0 +1,52 @@
+body {
+    font-family: Times New Roman, serif;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-style: italic;
+}
+
+p {
+    text-align: center;
+}
+
+hr {
+    background-color: #008000;
+    width: 70%;
+    height: 5px;
+    margin: 20px auto;
+    border: none;
+}
+
+#title {
+    color: red;
+    text-align: center;
+}
+
+.product {
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+.note {
+    background-color: yellow;
+}
+
+.slogan {
+    font-family: Propisi, cursive;
+    font-style: italic;
+}
