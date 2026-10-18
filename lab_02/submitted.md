@@ -1,1 +1,1 @@
-Lab 2 submitted
+Lab 2
