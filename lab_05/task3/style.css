@@ -1,0 +1,76 @@
+body {
+    background-color: #eef4f7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #2c3e50;
+}
+
+
+.questionnaire {
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+}
+
+
+.questionnaire__title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #1b4f72;
+}
+
+
+.questionnaire__section {
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    background-color: white;
+    border: 1px solid #5499c7;
+}
+
+legend {
+    padding: 5px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #1b4f72;
+}
+
+label {
+    font-weight: bold;
+    color: #1b4f72;
+}
+
+
+input,
+textarea,
+select {
+    padding: 5px;
+    font-family: inherit;
+    font-size: 16px;
+    color: #2c3e50;
+    background-color: white;
+}
+
+
+.questionnaire__actions {
+    text-align: center;
+}
+
+.questionnaire__button {
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+.questionnaire__button--submit {
+    background-color: rgb(7, 101, 7);
+}
+
+.questionnaire__button--reset {
+    background-color: rgb(185, 16, 16);
+}

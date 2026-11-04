@@ -1,0 +1,92 @@
+div:nth-of-type(1),
+div:nth-of-type(2) {
+    width: 300px;
+    padding: 20px;
+    border: 5px solid #1b4f72;
+    display: inline-block;
+    margin: 20px;
+    background-color: #d6eaf8;
+}
+
+div:nth-of-type(1) {
+    box-sizing: content-box;
+    /* Загальна ширина: 300 + 2 * 20 + 2 * 5 = 350px */
+}
+
+div:nth-of-type(2) {
+    box-sizing: border-box;
+    /* Загальна ширина: 300px */
+}
+
+div:nth-of-type(3) {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    max-height: 80px;
+    margin: 20px 20px 100px;
+    border: 2px solid #1b4f72;
+    background-color: #d6eaf8;
+    overflow: visible;
+}
+
+
+div:nth-of-type(4) {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    max-height: 80px;
+    margin: 20px 20px 100px;
+    border: 2px solid #1b4f72;
+    background-color: #d6eaf8;
+    overflow: hidden;
+}
+
+div:nth-of-type(5) {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    max-height: 80px;
+    margin: 20px 20px 100px;
+    border: 2px solid #1b4f72;
+    background-color: #d6eaf8;
+    overflow: scroll;
+}
+
+
+div:nth-of-type(6) {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    max-height: 80px;
+    margin: 20px 20px 100px;
+    border: 2px solid #1b4f72;
+    background-color: #d6eaf8;
+    overflow: auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;        
+}
+
+li {
+    display: inline-block;    
+}
+
+a {
+    display: block;           
+    padding: 10px 20px;
+    color: white;
+    background-color: #1b4f72;
+    text-decoration: none;
+}
+
+li:nth-of-type(3) {
+    display: none;
+    /* display: none повністю прибирає елемент зі сторінки: він не показується і не займає місця, сусідні пункти зсуваються на його місце.
+    
+    visibility: hidden теж робить елемент невидимим, але залишає порожнє місце.
+
+    opacity: 0 робить елемент прозорим, місце теж лишається, і він може реагувати на клік. */
+}
