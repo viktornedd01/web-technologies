@@ -1,0 +1,137 @@
+.weather {
+    position: relative;
+    width: 520px;
+    height: 415px;
+    margin: 20px auto;
+    background-color: #c8c8c8;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    position: absolute;
+    z-index: 2;
+    left: 72px;
+    top: 15px;
+    width: 278px;
+    height: 302px;
+    background-color: #000;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.45);
+}
+
+.cloud {
+    position: absolute;
+    z-index: 2;
+    left: 120px;
+    top: 65px;
+    width: 350px;
+    height: 175px;
+    opacity: 0.95;
+}
+
+.cloud-part {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 0 15px 8px rgba(255, 255, 255, 0.8);
+}
+
+.cloud-base {
+    left: 10px;
+    top: 85px;
+    width: 330px;
+    height: 80px;
+}
+
+.cloud-top-left {
+    left: 100px;
+    top: 15px;
+    width: 140px;
+    height: 140px;
+}
+
+.cloud-top-right {
+    left: 180px;
+    top: 30px;
+    width: 120px;
+    height: 120px;
+}
+
+.cloud-left {
+    left: 40px;
+    top: 75px;
+    width: 100px;
+    height: 90px;
+}
+
+.cloud-right {
+    left: 260px;
+    top: 55px;
+    width: 85px;
+    height: 85px;
+}
+
+.temperature {
+    position: absolute;
+    z-index: 3;
+    left: 82px;
+    top: 224px;
+    font-size: 80px;
+    line-height: 80px;
+    font-weight: 700;
+    color: #b3b3b3;
+}
+
+.arrows {
+    position: absolute;
+    z-index: 4;
+    left: 15px;
+    top: 103px;
+    width: 112px;
+    height: 55px;
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+.arrow {
+    float: left;
+    width: 50%;
+    font-size: 44px;
+    line-height: 55px;
+    text-align: center;
+    color: #222;
+}
+
+.forecast {
+    position: absolute;
+    z-index: 1;
+    left: 208px;
+    top: 253px;
+    box-sizing: border-box;
+    width: 280px;
+    height: 145px;
+    margin: 0;
+    padding: 72px 0 0 0;
+    list-style: none;
+    background-color: #c4c4c4;
+    box-shadow: 5px 5px 6px #6f6f6f;
+}
+
+.forecast-day {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.forecast-weekday {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 13px;
+    line-height: 16px;
+    color: #9a9a9a;
+}
+
+.forecast-temperature {
+    display: block;
+    font-size: 20px;
+    line-height: 24px;
+    color: #222;
+}

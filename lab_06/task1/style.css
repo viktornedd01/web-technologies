@@ -1,0 +1,43 @@
+.block {
+    position: relative;
+    width: 515px;
+    height: 325px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+ 
+.block .block {
+    position: absolute;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 15px;
+    border: 2px solid #000;
+    font-size: 22px;
+    line-height: 28px;
+    color: white;
+    text-align: center;
+}
+ 
+.block-upleft {
+    left: 0;
+    top: 0;
+    width: 240px;
+    height: 180px;
+    background-color: #5b9bd5;
+}
+ 
+.block-upright {
+    left: 262px;
+    top: 0;
+    width: 253px;
+    height: 180px;
+    background-color: #5b9bd5;
+}
+ 
+.block-bottom {
+    left: 0;
+    top: 200px;
+    width: 515px;
+    height: 125px;
+    background-color: #604878;
+}
